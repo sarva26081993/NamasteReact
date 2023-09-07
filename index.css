@@ -1,0 +1,17 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  #heading {
+    color: red;
+    text-align: center;
+    text-decoration: dotted;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  #child {
+    color: red;
+    text-align: center;
+    text-decoration: dotted;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
