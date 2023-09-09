@@ -21,3 +21,26 @@ async - No sequential execution
 defer - execute js file after html file has been loaded
 
 crossorigin allows error logging for websites using different servers for static media
+
+<html> 
+    <body> 
+            <div id="myroot"> 
+                    <h1> Hello World </h1>
+            </div>
+    </body>
+</html>
+
+<script> 
+const element = document.createElement("h1");
+element.innerText = "Hello World";
+const root = document.getElementById("myroot");
+root.appendChild(element);
+</script>
+
+<script>
+
+const element = React.createElement("h1",{},"Hello world");
+const root = ReactDOM.createRoot(document.getElementById("myroot"));
+root.render(element);
+
+</script>
