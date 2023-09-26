@@ -44,3 +44,28 @@ const root = ReactDOM.createRoot(document.getElementById("myroot"));
 root.render(element);
 
 </script>
+
+#Module 2
+
+Parcel helps in 
+
+1. Creating dev build
+2. HMR - Hot Module Replacement (automatically updating the content of page)
+3. creates local server instance
+4. Uses file watching algo which is written in C++
+5. Also caches - thus faster builds 
+6. Image optimisation
+7. Minification of files during production builds
+8. Bundling
+9. Compressing
+10. Consistent Hashing
+11. Code Splitting
+12. Differential bundling
+13. Diagnostics
+14. Error Handling
+15. HTTPs
+16. Tree Shaking - removes unused code
+
+-- npx create-react-app myapp    ----  automatically creates myapp react app
+
+create-react-app is a npm package
