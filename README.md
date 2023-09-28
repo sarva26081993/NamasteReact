@@ -1,7 +1,7 @@
 # NamasteReact
 Will be publishing Namaste React Notes
 
-//Episode 1
+# Episode 1
 What is Emmet?
 Emmet is a set of plugins for fast coding and editing in HTML via content assist
 
@@ -45,7 +45,7 @@ root.render(element);
 
 </script>
 
-#Module 2
+# Episode 2
 
 Parcel helps in 
 
@@ -68,4 +68,29 @@ Parcel helps in
 
 -- npx create-react-app myapp    ----  automatically creates myapp react app
 
+npx  - node package eXecute
+
 create-react-app is a npm package
+
+.parcel-cache is a folder which stores information about previous builds so as to create any rebuilds faster
+
+package.json -approx version of dependencies
+package-lock.json  exact version of dependencies
+
+dist folder contains the minimized version of your source code, i.e. distributable builds
+
+browserlist - list of supported browserversions - added in package.json as array of browser versions
+
+  "browserslist":[
+    "last 10 versions"
+  ]
+
+major.minor.patch
+  ^  - accpets minor and patch, locks major
+
+  ~  - accepts only patch, locks major and minor
+
+
+Use of gitignore - we must add files/folders in this file which we do not intend to push on git/ which can be recreated
+
+Bundlers like parcel or webpack help in shiping created software to production
