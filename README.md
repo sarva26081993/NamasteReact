@@ -108,3 +108,5 @@ transpiled into React.createElement in the end*/
 // const HeadingComponent = () => {
 // return <h1>Namaste React functional components</h1>
 // };
+
+type attribute in script tag :   Defines type of script to be used/interpreted
