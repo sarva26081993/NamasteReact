@@ -94,3 +94,17 @@ major.minor.patch
 Use of gitignore - we must add files/folders in this file which we do not intend to push on git/ which can be recreated
 
 Bundlers like parcel or webpack help in shiping created software to production
+
+# Episode 3
+
+//Babel is responsible for transpiling jsx to js engine understandable format
+//Babel gets installed as dependency of Parcel, Babel is nothing but npm package
+
+/*const jsxHeading = <h1 id="heading"> This is Namaste react with JSX </h1> gets 
+transpiled into React.createElement in the end*/
+
+//React Functional Component
+
+// const HeadingComponent = () => {
+// return <h1>Namaste React functional components</h1>
+// };
