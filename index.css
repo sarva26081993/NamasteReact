@@ -1,29 +1,72 @@
-
-body {
-  background-color: rgb(178, 213, 168);
-}
-
-.title {
-  color: blue;
-}
-
-.container {
+.header {
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
+  border: 2px solid black;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://getwallpapers.com/wallpaper/full/2/9/7/494243.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.res-container{
+  display: flex;  
+  flex-wrap: wrap;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 175px;
 }
 
-.search-align {
-  padding: 58px;
+.nav-items {
+  padding:  0px 30px;
 }
 
-.profile {
-  width: 60px;
-  height: 60px;
-  padding: 25px;
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 5px;
+  margin: 20px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-family: fantasy;
+  color: orange;
+}
+
+.res-card{
+  width: 200px;
+  height: 475px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  text-decoration-style: wavy;
+  margin : 5px;
+}
+
+
+.res-card:hover{
+  transform: scale(1.1);
+  border: 5px solid orange;
+  background-color: black;
+}
+
+
+.search{
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+}
+
+.res-logo{
+  width: 100%;
+  margin: 2px;
 }

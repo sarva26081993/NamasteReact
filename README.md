@@ -110,3 +110,39 @@ transpiled into React.createElement in the end*/
 // };
 
 type attribute in script tag :   Defines type of script to be used/interpreted
+
+# Episode 4
+
+Props: argument/s to functional component
+functional component :  normal js function returning some jsx code
+
+dynamic data in the components should be passed with the help of props.
+
+props can be destructured on the go and can be used for example
+
+const RestaurantCard = ({resname,cuisine}) => {
+    return(
+        <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
+            <img className="res-logo" 
+            alt="res-logo" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/zlg9ivz8tsouustzf2r4" />
+             <h3>{resname}</h3>
+             <h4>{cuisine}</h4>
+             <h4>{rating}</h4>
+             <h4>{eta}</h4>
+        </div>
+    );
+};
+
+
+Config Driven UI : website/ui is driven by configs(data)(eg swiggy location wise offers)
+
+-- each child in a list should have unique "key" prop in order to avoid re-rendering
+-- as per React documentation, never use indexes as keys
+
+--  Not using keys(not acceptable ) <<<<<<<<<  index as key  <<<<<<<<<<   unique id (best practice)
+
+-- revise map, filter and reduce(HW)
+
+
+
+
