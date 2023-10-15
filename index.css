@@ -50,11 +50,11 @@
   color: orange;
   text-decoration-style: wavy;
   margin : 5px;
+  border-radius: 15px;
 }
 
 
 .res-card:hover{
-  transform: scale(1.1);
   border: 5px solid orange;
   background-color: black;
 }
@@ -67,6 +67,15 @@
 }
 
 .res-logo{
-  width: 100%;
+  width: 90%;
+  height: 200px;
   margin: 2px;
+  border-radius: 25px;
+}
+
+.filter-btn{
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  cursor: pointer;
 }

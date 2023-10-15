@@ -143,6 +143,55 @@ Config Driven UI : website/ui is driven by configs(data)(eg swiggy location wise
 
 -- revise map, filter and reduce(HW)
 
+Theory questions answers : 
+
+1. are jsx and es6 mandatory - No
+2. 
+
+
+
+
+# Episode 5
+
+Two types of Export/ Import
+
+1. default export at the end of file => export default <name of variable>
+
+import <name of variable> from  "<path of file>"
+
+2. named export => export const  <name of variable> = ....
+
+import {<name of variable>} from "<path of file>"
+
+-- New file for new components
+
+-- React Hook is normal javascript utility function provided by react
+Most commonly used Hooks are  
+
+1. useState() -  superpowerful react variables
+
+2. useEffect() - 
+
+
+Syntax to create state variable : 
+
+const [variable_name] = useState(default_value_to_be_passed/initial value / beginning value);
+
+-- Whenever state variable updates, react will re-render the components
+
+# Reconciliation Algorithm/ React Fiber - 
+
+Virtual DOM(JS Object) is representation of Actual DOM
+
+Diff Algorithm : finds difference between old and new virtual DOM and then actually update the DOM
+
+React Fiber was introduced in React version 16 
+
+
+
+
+
+
 
 
 
