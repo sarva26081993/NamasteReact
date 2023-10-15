@@ -50,18 +50,12 @@
   color: orange;
   text-decoration-style: wavy;
   margin : 5px;
-<<<<<<< HEAD
-=======
   border-radius: 15px;
->>>>>>> 0c18d5a67b5669e286ab896d4f0dadf033907ab1
 }
 
 
 .res-card:hover{
-<<<<<<< HEAD
   transform: scale(1.1);
-=======
->>>>>>> 0c18d5a67b5669e286ab896d4f0dadf033907ab1
   border: 5px solid orange;
   background-color: black;
 }
@@ -74,10 +68,8 @@
 }
 
 .res-logo{
-<<<<<<< HEAD
   width: 100%;
   margin: 2px;
-=======
   width: 90%;
   height: 200px;
   margin: 2px;
@@ -89,5 +81,4 @@
   border-radius: 15px;
   display: flex;
   cursor: pointer;
->>>>>>> 0c18d5a67b5669e286ab896d4f0dadf033907ab1
 }
