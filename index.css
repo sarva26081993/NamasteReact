@@ -78,7 +78,17 @@
 
 .filter-btn{
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   cursor: pointer;
+}
+
+.search-bar{
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.filter{
+  display: flex;
 }

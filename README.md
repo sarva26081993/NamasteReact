@@ -143,8 +143,6 @@ Config Driven UI : website/ui is driven by configs(data)(eg swiggy location wise
 
 -- revise map, filter and reduce(HW)
 
-<<<<<<< HEAD
-=======
 Theory questions answers : 
 
 1. are jsx and es6 mandatory - No
@@ -177,7 +175,7 @@ Most commonly used Hooks are
 
 Syntax to create state variable : 
 
-const [variable_name] = useState(default_value_to_be_passed/initial value / beginning value);
+const [variable_name , setlistof_variable_name] = useState(default_value_to_be_passed/initial value / beginning value);
 
 -- Whenever state variable updates, react will re-render the components
 
@@ -194,7 +192,6 @@ React Fiber was introduced in React version 16
 
 
 
->>>>>>> 0c18d5a67b5669e286ab896d4f0dadf033907ab1
 
 
 
