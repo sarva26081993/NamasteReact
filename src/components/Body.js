@@ -46,15 +46,15 @@ const Body = () => {
         >
           Submit
         </button>
-      </div>
 
-      <button className="filter-btn" onClick={() => {
-        const sortedListOfRestaurants = listOfRestaurants.sort((a, b) => { return b.info.avgRating-a.info.avgRating});
+        <button className="filter-btn" onClick={() => {
+        const sortedListOfRestaurants = [...listOfRestaurants].sort((a, b) => { return b.info.avgRating-a.info.avgRating});
         setlistOfRestaurants(sortedListOfRestaurants);
       }}
       >
         Sort by Rating (High to Low)
       </button>
+    </div>
 
       <div className="res-container">
         {listOfRestaurants.map((restaurant) => (
