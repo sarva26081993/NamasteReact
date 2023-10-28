@@ -170,16 +170,13 @@ Most commonly used Hooks are
 
 1. useState() -  superpowerful react variables
 
-2. useEffect() - 
-
-
 Syntax to create state variable : 
 
 const [variable_name , setlistof_variable_name] = useState(default_value_to_be_passed/initial value / beginning value);
 
 -- Whenever state variable updates, react will re-render the components
 
-# Reconciliation Algorithm/ React Fiber - 
+Reconciliation Algorithm/ React Fiber - 
 
 Virtual DOM(JS Object) is representation of Actual DOM
 

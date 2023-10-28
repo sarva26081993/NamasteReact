@@ -26,7 +26,7 @@ const Body = () => {
             setlistOfRestaurants(resObj);
           }}
         >
-          Clear Filter
+          Clear Filter/Search
         </button>
         <input
           type="text"
